@@ -1,0 +1,103 @@
+
+/* MAIN APPLICATION BACKGROUND */
+.stApp {
+    background: linear-gradient(135deg, #07111f, #101f35);
+    color: #ffffff;
+}
+
+/* MAIN TITLE */
+h1 {
+    color: #38bdf8 !important;
+    font-weight: 800 !important;
+    text-align: center;
+}
+
+/* SUBHEADINGS */
+h2, h3 {
+    color: #7dd3fc !important;
+    font-weight: 700 !important;
+}
+
+/* NORMAL TEXT */
+p, label {
+    color: #e2e8f0 !important;
+}
+
+/* INPUT FIELDS */
+.stTextInput input,
+.stTextArea textarea {
+    background-color: #172b45 !important;
+    color: #ffffff !important;
+    border: 1px solid #2563eb !important;
+    border-radius: 10px !important;
+}
+
+/* INPUT PLACEHOLDERS */
+.stTextInput input::placeholder,
+.stTextArea textarea::placeholder {
+    color: #94a3b8 !important;
+}
+
+/* ANALYZE BUTTON */
+.stButton button {
+    background: linear-gradient(90deg, #2563eb, #06b6d4);
+    color: white !important;
+    border: none;
+    border-radius: 10px;
+    padding: 12px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+/* BUTTON HOVER */
+.stButton button:hover {
+    background: linear-gradient(90deg, #1d4ed8, #0891b2);
+    border: none;
+    transform: scale(1.02);
+}
+
+/* METRIC CARDS */
+[data-testid="stMetric"] {
+    background-color: #172b45;
+    padding: 18px;
+    border-radius: 12px;
+    border: 1px solid #2563eb;
+}
+
+/* METRIC VALUES */
+[data-testid="stMetricValue"] {
+    color: #38bdf8 !important;
+    font-weight: bold;
+}
+
+/* DIVIDERS */
+hr {
+    border-color: #334155;
+}
+
+/* ALERT BOXES */
+[data-testid="stAlert"] {
+    border-radius: 10px;
+}
+
+/* PROGRESS BAR */
+.stProgress > div > div > div {
+    background-color: #06b6d4;
+}
+
+/* FOOTER */
+footer {
+    visibility: hidden;
+}
+
+/* REMOVE STREAMLIT MENU */
+#MainMenu {
+    visibility: hidden;
+}
+
+/* APP CONTENT SPACING */
+.block-container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    max-width: 900px;
+}
